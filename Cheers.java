@@ -30,7 +30,7 @@ public class Cheers {
             }
 
             
-            System.out.println("Give me " + connector + ch + "!");
+            System.out.println("Give me " + connector + ch + ":");
         }
 
         System.out.println("What does that spell?");
