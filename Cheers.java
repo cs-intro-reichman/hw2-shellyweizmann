@@ -10,7 +10,7 @@ public class Cheers {
  public static void main(String[] args) 
  {
         
-        String wordString = args[0];          
+        String wordString = args[0].toUpperCase();          
         int cheerCount = Integer.parseInt(args[1]);  
 
         String specialLetters = "AEFHILMNORSX"; 
@@ -30,7 +30,7 @@ public class Cheers {
             }
 
             
-            System.out.println("Give me " + connector + ch + ":");
+            System.out.println("Give me " + connector + ch + ": " + ch + "!");
         }
 
         System.out.println("What does that spell?");
